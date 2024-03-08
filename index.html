@@ -7,14 +7,27 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div>
+        <p>Informe a quantidade de números para criar a Rifa:</p>
+        <input type="text" id="quantidadeNumeros" placeholder="">
+        <button id="enviarQuantidade">Gerar Rifa</button>
+    </div>
+    
     <div class="container">
         <h1>Rifa Online</h1>
+       
 
         <table id="tabela-rifa" class="tab-numeros-rifa">
 
         </table>
 
-        <button id="sortearBtn">Sortear</button>
+        <br>
+
+        <div>
+            <button id="sortearBtn">Sortear</button>
+            <button id="resetarBtn">Resetar</button>
+        </div>
+        
     </div>
 
     <script src="script/scriptRifa.js"></script>

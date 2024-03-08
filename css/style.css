@@ -14,3 +14,17 @@ body, html {
     padding: 10px;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    flex-direction: column; /* Altera a direção para vertical */
+    justify-content: center;
+    align-items: center;
+
+    /* Isso centraliza verticalmente */
+    /*height: 100vh; */
+}
+
+#sortearBtn #resetarBtn{
+    font-size: 20px; /* Altere o tamanho conforme necessário */
+}
